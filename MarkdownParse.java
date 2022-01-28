@@ -20,6 +20,9 @@ public class MarkdownParse {
                 if(nextOpenBracket == -1){
                     break;
                 }
+                if(nextCloseBracket == -1){
+                    break;
+                }
                 if(openParen != (nextCloseBracket + 1)){
                     currentIndex = nextCloseBracket + 1;
                     continue;
