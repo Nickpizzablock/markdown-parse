@@ -33,6 +33,8 @@ public class MarkdownParse {
                 }
 
                 int closeParen = markdown.indexOf(")", openParen);
+                
+                //added if for closeParen
                 if(closeParen == -1) {
                     break;
                 }
