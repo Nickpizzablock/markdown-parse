@@ -1,4 +1,4 @@
-MarkdownParse.class: MakrdownParse.java
+MarkdownParse.class: MarkdownParse.java
 	javac MarkdownParse.java
 
 MarkdownParseTest.class: MarkdownParseTest.java
